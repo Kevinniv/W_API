@@ -1,4 +1,5 @@
-Flask
-pandas
-numpy
-gunicorn
+Flask==2.1.1
+pandas==1.4.2
+numpy==1.22.3
+gunicorn==20.1.0
+certifi==2023.7.22
