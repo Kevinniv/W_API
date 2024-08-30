@@ -1,4 +1,4 @@
 Flask
-pandas --only-binary=:all:
-numpy --only-binary=:all:
+pandas 
+numpy
 gunicorn
