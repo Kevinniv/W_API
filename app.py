@@ -8,6 +8,8 @@ import tempfile
 
 app = Flask(__name__)
 
+app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # 允许最大上传100MB的文件
+
 # 配置日志记录
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
